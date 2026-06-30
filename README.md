@@ -1,4 +1,4 @@
-# z80oolong/tts -- VOICEVOX をはじめ各種オープンソース音声合成アプリケーション及び音源ライブラリを Homebrew for Linux に導入するための Formula 群
+# z80oolong/tts -- 各種オープンソース音声合成アプリケーション等を導入するための Formula 群
 
 ## 告知 (2026-06-30)
 
