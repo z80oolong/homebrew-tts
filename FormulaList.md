@@ -10,7 +10,7 @@
 
 この Formula は、 [VOICEVOX CORE][VCOR] をソースコードからビルドし、ライブラリとしてインストールします。
 
-[VOICEVOX CORE][VCOR] の各種ライブラリ等は以下のディレクトリにインストールされます。（ここに、 ```$HOMEBREW_PREFIX/opt/voicevox-core``` は [Homebrew for Linux][BREW] のインストール先のプレフィックスディレクトリを、 ```VERSION``` は [VOICEVOX CORE][VCOR] のバージョン番号を示します。）
+[VOICEVOX CORE][VCOR] の各種ライブラリ等は以下のディレクトリにインストールされます。（ここに、 ```$HOMEBREW_PREFIX``` は [Homebrew for Linux][BREW] のインストール先のプレフィックスディレクトリを、 ```VERSION``` は [VOICEVOX CORE][VCOR] のバージョン番号を示します。）
 
 - [VOICEVOX CORE][VCOR] 本体の動的ライブラリ … ```$HOMEBREW_PREFIX/opt/voicevox-core/lib/libvoicevox_core.so{, .VERSION}```
 - VOICEVOX 専用の ONNX Runtime … ```$HOMEBREW_PREFIX/opt/voicevox-core/lib/voicevox/libonnxruntime.so{, .VERSION}```
