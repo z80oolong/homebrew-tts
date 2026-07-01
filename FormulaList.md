@@ -19,7 +19,10 @@
 
 また、同時に [VOICEVOX CORE][VCOR] の簡易な動作確認用の CLI である ```voicevox-core-cli``` 及び Python で書かれた動作確認用の CLI である ```voicevox-core-pycli``` も ```PREFIX/bin``` にインストールされます。使用方法は ```voicevox-core-cli -h``` 及び ```voicevox-core-pycli -h``` を参照してください。
 
-## 外部リンク一覧
+- **注意**:
+    - **この Formula によってインストールされる [VOICEVOX CORE][VOICEVOX] は GPU に未対応です。** CPU のみでの動作となります。
+
+<!-- 外部リンク一覧 -->
 
 [BREW]:https://linuxbrew.sh/
 [VCOR]:https://github.com/VOICEVOX/voicevox_core
