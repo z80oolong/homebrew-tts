@@ -10,14 +10,14 @@
 
 この Formula は、 [VOICEVOX CORE][VCOR] をソースコードからビルドし、ライブラリとしてインストールします。
 
-[VOICEVOX CORE][VCOR] の各種ライブラリ等は以下のディレクトリにインストールされます。（ここに、 ```PREFIX``` は [VOICEVOX CORE][VCOR] のインストール先のプレフィックスディレクトリを、 ```VERSION``` は [VOICEVOX CORE][VCOR] のバージョン番号を示します。）
+[VOICEVOX CORE][VCOR] の各種ライブラリ等は以下のディレクトリにインストールされます。（ここに、 ```$HOMEBREW_PREFIX/opt/voicevox-core``` は [Homebrew for Linux][BREW] のインストール先のプレフィックスディレクトリを、 ```VERSION``` は [VOICEVOX CORE][VCOR] のバージョン番号を示します。）
 
-- [VOICEVOX CORE][VCOR] 本体の動的ライブラリ … ```PREFIX/lib/libvoicevox_core.so{, .VERSION}```
-- VOICEVOX 専用の ONNX Runtime … ```PREFIX/lib/voicevox/libonnxruntime.so{, .VERSION}```
-- VOICEVOX で使用する OpenJTalk 辞書のディレクトリ … ```PREFIX/share/dic```
-- VOICEVOX の動作確認用のサンプル VVM … ```PREFIX/share/models```
+- [VOICEVOX CORE][VCOR] 本体の動的ライブラリ … ```$HOMEBREW_PREFIX/opt/voicevox-core/lib/libvoicevox_core.so{, .VERSION}```
+- VOICEVOX 専用の ONNX Runtime … ```$HOMEBREW_PREFIX/opt/voicevox-core/lib/voicevox/libonnxruntime.so{, .VERSION}```
+- VOICEVOX で使用する OpenJTalk 辞書のディレクトリ … ```$HOMEBREW_PREFIX/opt/voicevox-core/share/dic```
+- VOICEVOX の動作確認用のサンプル VVM … ```$HOMEBREW_PREFIX/opt/voicevox-core/share/models```
 
-また、同時に [VOICEVOX CORE][VCOR] の簡易な動作確認用の CLI である ```voicevox-core-cli``` 及び Python で書かれた動作確認用の CLI である ```voicevox-core-pycli``` も ```PREFIX/bin``` にインストールされます。使用方法は ```voicevox-core-cli -h``` 及び ```voicevox-core-pycli -h``` を参照してください。
+また、同時に [VOICEVOX CORE][VCOR] の簡易な動作確認用の CLI である ```voicevox-core-cli``` 及び Python で書かれた動作確認用の CLI である ```voicevox-core-pycli``` も ```$HOMEBREW_PREFIX/opt/voicevox-core/bin``` にインストールされます。使用方法は ```voicevox-core-cli -h``` 及び ```voicevox-core-pycli -h``` を参照してください。
 
 - **注意**:
     - **この Formula によってインストールされる [VOICEVOX CORE][VCOR] は GPU に未対応です。** CPU のみでの動作となります。
