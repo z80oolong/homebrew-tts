@@ -183,7 +183,7 @@ class VoicevoxCore < Formula
     ohai "Remove #{testpath}/hello_c.wav"
     rm testpath/"hello_c.wav"
 
-    system "#{bin}/voicevox-core-cli-py", "-o", "#{testpath}/hello_py.wav", "'こんにちは。テストです。'"
+    system "#{bin}/voicevox-core-pycli", "-o", "#{testpath}/hello_py.wav", "'こんにちは。テストです。'"
     assert_path_exists testpath/"hello_py.wav"
     ohai "Remove #{testpath}/hello_py.wav"
     rm testpath/"hello_py.wav"
